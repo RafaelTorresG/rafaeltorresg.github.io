@@ -15,20 +15,31 @@
         <p><strong>Education:</strong> MSc in Economics</p>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="cv/CV.pdf" target="_blank">Download CV</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropbtn">Research</a>
-              <div class="dropdown-content">
-                <a href="economics.html">Economics</a>
-                <a href="astrophysics.html">Astrophysics</a>
-              </div>
-            </li>
-            <li><a href="#teaching">Teaching</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    
+You can achieve this by modifying the navigation bar to include a dropdown menu under the "Research" tab. This way, when the user hovers over or clicks on the "Research" link, it displays a list of sub-options (Economics and Astrophysics).
+
+Here is how you can update your index.html file to implement the dropdown menu:
+
+HTML Code Update
+Replace your existing navigation code with the following (or modify it accordingly):
+
+html
+Copiar código
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="cv.html">Download CV</a></li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Research</a>
+      <div class="dropdown-content">
+        <a href="economics.html">Economics</a>
+        <a href="astrophysics.html">Astrophysics</a>
+      </div>
+    </li>
+    <li><a href="teaching.html">Teaching</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
 
     <section id="teaching">
         <h2>Teaching</h2>
