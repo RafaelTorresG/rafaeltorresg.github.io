@@ -32,6 +32,11 @@ header p {
   font-size: 1.2em;
 }
 
+header img {
+    width: 150px;
+    border-radius: 50%;
+}
+
 /* Navigation Bar */
 nav {
   background-color: #333;
