@@ -7,6 +7,10 @@ body {
   background-color: #f4f4f4;
 }
 
+p {
+    text-align: justify;
+}
+
 /* Header */
 header {
   text-align: center;
