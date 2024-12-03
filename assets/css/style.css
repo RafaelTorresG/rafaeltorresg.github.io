@@ -7,11 +7,6 @@ body {
   background-color: #f4f4f4;
 }
 
-/* Center align text inside the header */
-header p {
-    text-align: center;
-}
-
 p {
     text-align: justify;
 }
@@ -22,6 +17,11 @@ header {
   background: #333;
   color: #fff;
   padding: 20px 0;
+}
+
+/* Center align text inside the header */
+header p {
+    text-align: center;
 }
 
 header img {
