@@ -135,3 +135,37 @@ section {
     font-size: 1em;
     color: #555;
 }
+
+/* Work in Progress Section */
+#work-in-progress {
+    margin-top: 40px;
+}
+
+#work-in-progress h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Individual Work Boxes */
+.work-box {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.work-box h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.work-box p {
+    font-size: 1em;
+    color: #555;
+    text-align: justify;
+}
+
